@@ -1,0 +1,76 @@
+MongoDB pass
+
+tPbHQNATzwIJBm9o
+
+
+mongodb = no-sql not as a tabular format
+
+Update By Id:
+db.users.updateOne({ _id: ObjectId("681cdebb89408bd350c99a96")}, {$set: {firstName: "Sarance", role:"Seller"}}, {upsert: true})
+
+
+Data Identification:
+Ecommerce features:
+	Core features:
+	Brands:
+		Name:
+		URL/Slug
+		Product's Price:
+		Product's Description:
+		Logo:
+		
+
+	Categories:
+		Name: Computers and Laptops
+		_id:
+		brands:
+		slug:
+		parentID:
+		
+		
+		
+	Users:
+		_id:
+		Name:
+		Address:
+		email:
+		password:
+		mobile no.:
+		gender:
+		dob:
+		status:
+		activateToken:
+		expiryToken:
+	Products:
+		Name:
+		Description:
+		Price:
+		Discount:
+		Category:
+		Sale:Yes/No
+		Stock:
+		Brand:
+	Orders:
+		Product Name:
+	Order Details:
+		Ordered Product:
+		Quantity:
+		Product's Price:
+		Shipping Address:
+		Date created:
+		Ordered No.:
+		Subtotal price:
+		Total Price including shipping fee:
+	Transactions:
+		Method of Payments:
+			Credit/Debit Card:
+			IME PAY/FONE payt:
+			COD:
+			Total amount:
+	Chat:
+		Seller Name:
+		Message:
+		Add attachment: Screenshoot, products or orders
+		
+	Add-on features:
+

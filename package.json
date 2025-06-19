@@ -1,0 +1,42 @@
+{
+  "name": "api-42",
+  "version": "1.0.0",
+  "description": "This is an ecommerce API built with Node.js and Express. It provides endpoints for managing products, users, orders, and payments. The API is designed to be used with a frontend application and supports various features such as authentication, product management, and order processing.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "route": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Broadway-Mern-Team/api-42.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Broadway-Mern-Team/api-42/issues"
+  },
+  "homepage": "https://github.com/Broadway-Mern-Team/api-42#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.0",
+    "axios": "^1.9.0",
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.6.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.2",
+    "multer": "^1.4.5-lts.2",
+    "nodemailer": "^7.0.2",
+    "passport": "^0.7.0",
+    "pg": "^8.16.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
+    "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^6.6.3"
+  }
+}
